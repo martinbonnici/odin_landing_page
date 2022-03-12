@@ -1,10 +1,21 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 10em;
+    padding-bottom: 48px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -13,64 +24,143 @@ ul {
 }
 
 li {
-    list-style-type: none;        
+    list-style-type: none;
+    align-self: center;        
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
 }
 
 .main {
     display: flex;
+    background-color: #1F2937;
+    padding: 0 10em;
+    padding-bottom: 5em;
+}
+
+.main-container {
+    padding-right: 2em;
+}
+
+.main-title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 3em;
+    margin: 0;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 0.9em;
+}
+
+.btn1 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: 0;
+    padding: 0.5em 2em;
+    font-weight: 600;
 }
 
 .header-image {
-    min-width: 0;    
+    min-width: 0;
+    object-fit: contain;
 }
 
 .section2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 0 10em;
+    padding-bottom: 5em;
+}
+
+.info-header {
+    font-weight: 900;
+    font-size: 2em;
+    padding: 1em 0;
+    text-align: center;
 }
 
 .tiles {
     display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tile {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
 
 .tile-img {
-    min-width: 0;
     width: 100%;
     height: auto;
+    border: 6px solid #3882f6;
+    border-radius: 10%;
 }
 
 .tile > p {
     text-align: center;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
 .section3 {
     text-align: center;
+    padding: 5em 10em;
+    background-color: #e5e7eb;
+
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2em;
+    color: #1F2937;
 }
 
 .author {
     text-align: right;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 1.5em;
 }
 
 .section4 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 5em 10em;
+    padding: 2.5em 5em;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
 }
 
 .btn2 {
     align-self: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: 2px solid #F9FAF8;
+    padding: 0.5em 2em;
+    font-weight: 600;
+}
+
+.action-header, .action-text {
+    margin: 0;
 }
 
 footer {
     text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 2.5em;
 }
